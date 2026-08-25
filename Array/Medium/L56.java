@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class L56 {  
     public static int[][] merge(int[][] intervals) {
          Arrays.sort(intervals,(a,b)->Integer.compare(a[0],b[0]));
-        int n=intervals.length,
+        int n=intervals.length;
         int i=0;
         ArrayList<int[]> arr=new ArrayList<>();
         while(i<n){
