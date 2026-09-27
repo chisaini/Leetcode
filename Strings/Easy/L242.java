@@ -1,6 +1,6 @@
 package Strings.Easy;
 
-import java.util.Arrays;
+
 
 public class L242 {
     public static boolean isAnagram(String s, String t) {

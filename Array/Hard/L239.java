@@ -1,5 +1,4 @@
 package Array.Hard;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 
@@ -9,7 +8,7 @@ public class L239 {
         int[] result = new int[n - k + 1];
         int ans=0;
         Deque<Integer> deque = new ArrayDeque<>();
-        int resultIndex = 0;
+        
 
         for (int i = 0; i < nums.length; i++) {
 

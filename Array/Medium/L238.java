@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class L238 {
     public static int[] productExceptSelf(int[] nums) {
