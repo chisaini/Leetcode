@@ -1,4 +1,3 @@
-package Strings.Medium;
 
 public class L1910 {
     public static String removeOccurrences(String s, String part) {

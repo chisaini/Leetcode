@@ -1,4 +1,3 @@
-package Strings.Easy;
 
 public class L14 {
     public static String longestCommonPrefix(String[] strs) {

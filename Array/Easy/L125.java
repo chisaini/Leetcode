@@ -1,4 +1,4 @@
-package Strings.Easy;
+
 
 public class L125 {
     public static  boolean isPalindrome(String s) {
@@ -23,7 +23,7 @@ public class L125 {
         return true;
     }
     public static void main(String[] args) {
-        String s = "race a car";
+        String s = "race  car";
         System.out.println(isPalindrome(s));
     }
 }
