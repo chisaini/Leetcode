@@ -43,7 +43,6 @@ public class L229 {
         if (count2 > threshold) {
             ans.add(candidate2);
         }
-
         return ans;
     }
     public static void main(String[] args) {
