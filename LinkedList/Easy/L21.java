@@ -1,7 +1,5 @@
 package LinkedList.Easy;
 
-import java.util.List;
-
 public class L21 {
     public static  class ListNode {
         int val;
