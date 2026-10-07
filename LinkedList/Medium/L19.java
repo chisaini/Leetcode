@@ -1,7 +1,4 @@
-package LinkedList.Easy;
-
-import java.util.List;
-
+package LinkedList.Medium;
 public class L19 {
     public static  class ListNode {
         int val;
