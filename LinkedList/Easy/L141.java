@@ -20,15 +20,13 @@ public class L141 {
     }
 
     public static  boolean hasCycle(ListNode head) {
-        if (head == null) {
-            return false;
-        }
-        ListNode slow = head;
-        ListNode fast = head;
-        while (fast.next != null && fast.next.next != null && fast != null) {
-            fast = fast.next.next;
-            slow = slow.next;
-            if (slow == fast) {
+        
+        ListNode slow=head;
+        ListNode fast=head;
+        while (fast!=null&&fast.next!=null) {
+            fast=fast.next.next;
+            slow=slow.next;
+            if (slow==fast) {
                 return true;
             }
         }
