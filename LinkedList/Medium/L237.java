@@ -10,8 +10,7 @@ public class L237 {
         }
     }
 
-    public static void deleteNode(ListNode curr) {
-        
+    public static void deleteNode(ListNode curr) {               
                 int temp=curr.val;
                 curr.val=curr.next.val;
                 curr.next.val=temp;
