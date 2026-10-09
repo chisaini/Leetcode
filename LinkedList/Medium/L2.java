@@ -1,6 +1,6 @@
 package LinkedList.Medium;
 
-import java.util.List;
+
 
 public class L2 {
     public static  class ListNode {
