@@ -34,9 +34,8 @@ public class L234 {
             prev=slow;
             slow=next;
         }
-        ListNode start1 =prev;
+        ListNode start1=prev;
         ListNode start2=slow;
-        
         if (fast!=null) {
             start2=start2.next;
         }
