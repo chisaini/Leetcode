@@ -46,6 +46,7 @@ public class L25 {
             ListNode oldgrpstat=prevgrpend.next;
             prevgrpend.next=kth;
             prevgrpend=oldgrpstat;
+            
         }
     }
     public static void main(String[] args) {
