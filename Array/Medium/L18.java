@@ -19,12 +19,7 @@ public class L18 {
                 while (left < right) {
                     long sum =(long) nums[j] +nums[i] +nums[left] +nums[right];
                     if (sum == target) {
-                        List<Integer> grp = new ArrayList<>();
-                        grp.add(nums[j]);
-                        grp.add(nums[i]);
-                        grp.add(nums[left]);
-                        grp.add(nums[right]);
-                        ans.add(grp);
+                       ans.add(Arrays.asList(nums[j], nums[i], nums[left], nums[right]));
                         left++;
                         right--;
                         while (left < right && nums[left] == nums[left - 1]) {
